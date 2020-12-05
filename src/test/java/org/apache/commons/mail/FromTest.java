@@ -14,7 +14,7 @@ public class FromTest extends TestCase{
     }
 	@Test 
 	public void testSetFrom() throws EmailException {
-        testEmail.setFrom("a@b.com");
+        this.testEmail.setFrom("a@b.com");
         System.out.println("This is a message from set From test class");
         System.out.println("This test class tests whether the Email.getFromAddress() function is working properly");
         System.out.println("This test is written by adl___");
