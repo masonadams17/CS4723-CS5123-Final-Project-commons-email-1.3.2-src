@@ -6,7 +6,7 @@ import org.apache.commons.mail.SimpleEmail;
 
 import junit.framework.TestCase;
 
-public class setFrom extends TestCase{
+public class FromTest extends TestCase{
     Email testEmail;
 
     public void setup(){
