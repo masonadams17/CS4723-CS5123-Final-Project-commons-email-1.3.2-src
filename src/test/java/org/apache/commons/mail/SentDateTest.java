@@ -5,6 +5,7 @@ import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.SimpleEmail;
 import java.util.Date;
 import java.util.Calendar;
+import org.junit.Test;
 import junit.framework.TestCase;
 
 public class SentDateTest extends TestCase{
