@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import junit.framework.TestCase;
 
-public class HostName extends TestCase{
+public class HostTest extends TestCase{
     /** Mail server used for testing */
 	protected String strTestMailServer = "localhost";
 	
