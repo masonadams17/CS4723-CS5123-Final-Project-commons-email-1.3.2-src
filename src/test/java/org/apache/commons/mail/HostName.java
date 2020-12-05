@@ -11,6 +11,24 @@ import org.junit.Test;
 import junit.framework.TestCase;
 
 public class HostName extends TestCase{
+    /** Mail server used for testing */
+	protected String strTestMailServer = "localhost";
+	
+	/** default port */
+    private static int mailServerPort = 2500;
+    
+    /** Test characters acceptable to email*/
+    protected String[] testCharsValid =
+        {
+                " ",
+                "a",
+                "A",
+                "\uc5ec",
+                "0123456789",
+                "012345678901234567890",
+                "\n"
+        };
+
     Email testEmail;
     public void setUp() {
         testEmail = new SimpleEmail();
