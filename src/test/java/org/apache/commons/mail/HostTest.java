@@ -47,7 +47,7 @@ public class HostTest extends TestCase{
         
         System.out.println("This is a message from the HostName Test Class");
         System.out.println("This class test the funcionality of the getHostName() function in the Email.java class");
-        System.out.println("This test was written by Mason - adl___");
+        System.out.println("This test was written by Mason - adl___\n\n");
 
 		/** tests exception where the hostname is not already specified and there is no session*/
 		assertEquals(null, testEmail.getHostName());

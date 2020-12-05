@@ -24,7 +24,7 @@ public class SentDateTest extends TestCase{
         
         System.out.println("This is a message from the SentDateTest Test Class");
         System.out.println("This class test the funcionality of the setSentDate() and getSentDate() function in the Email.java class");
-        System.out.println("This test was written by Mason - adl___");
+        System.out.println("This test was written by Mason - adl___\n\n");
 
         assertTrue(Math.abs(sentDate.getTime() - dtTest.getTime()) < 1000);
         // with input date
